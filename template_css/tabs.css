@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+.tab-container {
+	width:100%;
+	margin:0 auto;
+}
+.etabs {
+	margin:0 0 22px 0;
+	padding: 0;
+	position:relative;
+	top:0px;
+	text-align:center;
+}
+.tab {
+	display: inline-block;
+	zoom:1;
+*display:inline;
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+}
+.tab a {
+	font-size: 11px;
+	display: block;
+	padding:3px 16px;
+	outline: none;
+	text-decoration:none;
+	background:#000;
+	border:none;
+	border-radius:18px;
+	color:#fff;
+	text-transform:uppercase;
+ -webkit-transition: all .25s ease;
+ -moz-transition: all .25s ease;
+ -ms-transition: all .25s ease;
+ -o-transition: all .25s ease;
+ transition: all .25s ease;
+}
+.tab a:hover {
+	background:#cc292c;
+	color:#fff;
+	text-decoration:none;
+ -webkit-transition: all .50s ease;
+ -moz-transition: all .20s ease;
+ -ms-transition: all .50s ease;
+ -o-transition: all .50s ease;
+ transition: all .50s ease;
+}
+.tab.active {
+	position: relative;
+	top: 0px;
+	border-radius:10px 10px 0 0;
+}
+.tab a.active {
+	color:#fff;
+	background:#cc292c;
+}
+.tab-container .panel-container {
+	border-top: solid #b5b6b9 1px;
+	border-bottom: solid #b5b6b9 1px;
+	padding:20px 0;
+}
+.panel-container {
+	margin-bottom: 10px;
+}
+.tab-container p {
+	color: #000000;
+	font-family: "Verdana";
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 13px !important;
+	margin:0px;
+	line-height:22px;
+	text-align: justify;
+}
+#span-tabs {
+	margin:0 auto;
+	float:none;
+}
+#links-tabs {
+	margin:12px 0;
+	text-align:center;
+}
+#links-tabs a {
+	background: none repeat scroll 0 0 #5C5F64;
+	border-radius: 50%;
+	display: inline-block;
+	height: 55px;
+	line-height: 52px;
+	margin:0 3px;
+	text-align: center;
+	width: 55px;
+ -webkit-transition: all .25s ease;
+ -moz-transition: all .25s ease;
+ -ms-transition: all .25s ease;
+ -o-transition: all .25s ease;
+ transition: all .25s ease;
+}
+#links-tabs a:hover {
+	background:#CA2128;
+ -webkit-transition: all .85s ease;
+ -moz-transition: all .85s ease;
+ -ms-transition: all .85s ease;
+ -o-transition: all .85s ease;
+ transition: all .85s ease;
+}
+#contact h4 {
+	font-size:40px;
+	text-align:center;
+	color:#fff;
+	font-family: 'BebasNeue';
+	font-weight:normal;
+	margin:8px 0 4px 0;
+	line-height:1;
+	letter-spacing:2px;
+}
+.map {
+	width:100%;
+	margin:0px;
+}
+.map img {
+	width:100%;
+}
+#tab-container1 .panel-container{ border:none; padding:0px;}
+#tab-container1 .tab a{ background:inherit; margin:0 12px; text-transform:inherit; font-size:12px; color:#3e4349; font-weight:bold;}
+#tab-container1 .tab a.active{background:#CC292C; color:#fff;} 
+@media only screen and (min-width:280px) and (max-width: 767px) {
+#contact h4 {
+font-size:19px;
+line-height:none;
+}
+.tab-container .panel-container {
+width:96%;
+margin:0 auto
+}

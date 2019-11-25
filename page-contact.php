@@ -29,7 +29,7 @@ if ( have_posts() ) {
 				<ul class="list_contat">
 					<li>
 						<i class="fas fa-envelope"></i>
-						info@outsourcedesigning.com
+						info@ouasdasdtsourcedesigning.com
 					</li>
 					<li>
 						<i class="fas fa-tty"></i>
